@@ -1,9 +1,0 @@
-#+TITLE: Emacs per user settings
-#+OPTIONS: toc:nil num:nil ^:nil
-* Allow change to opening directory
-Envronment variable CODE-REPO will set opening directory.
- #+BEGIN_SRC emacs-lisp
- ;;;; Change to my work directory
- (if (getenv "CODE-REPO")
-      (cd (getenv "CODE-REPO")))
- #+END_SRC
