@@ -1,0 +1,1 @@
+/c/Users/zzzap/Documents/Code/.quicklisp-user.lisp
